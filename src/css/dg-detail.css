@@ -186,7 +186,7 @@ header h1 a {
   display: block;
   width: 100%;
   height: 3.9rem;
-  background: url("../assets/images/home/logo.png") no-repeat top center;
+  background: url("../assets/images/home/logo.png") no-repeat top -11rem/contain;
   background-size: contain;
   text-indent: -99999px;
 }
@@ -335,17 +335,16 @@ header nav a.active:after {
 }
 .page main {
   min-width: 128rem;
-  background: url(../assets/images/list/bg.png) no-repeat 0 -11rem #ebecec;
-  position: relative;
-  padding-bottom: 11rem;
+  background: url(../assets/images/detail/bg.png) no-repeat 0 -11rem #ebecec;
+  padding: 12.7rem 15.1rem 10.3rem 15.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 .page main .left_nav {
   width: 22.3rem;
   background: #f3f2f2;
   padding-top: 2.7rem;
-  position: absolute;
-  top: 5.9rem;
-  left: 14.9rem;
 }
 .page main .left_nav .dropdown {
   font-size: 0;
@@ -398,42 +397,26 @@ header nav a.active:after {
 .page main .left_nav .telN p:last-child {
   padding-left: 1.9rem;
 }
-.page main .lis_wrap {
-  padding-top: 9.3rem;
-  padding-left: 41.7rem;
-}
-.page main .lis_wrap h2 {
-  display: flex;
-  justify-content: space-between;
-  width: 62.5rem;
-  color: #fff;
-  border-bottom: 0.2rem solid #fff;
-  font-size: 2.6rem;
-  padding-bottom: 0.4rem;
-  margin-bottom: 4.6rem;
-  transform: translateX(2rem);
-}
-.page main .lis_wrap h2 .vani {
-  font-family: "Vani" !important;
-  text-transform: uppercase;
-}
 .page main .lis_wrap .inductry_n_t {
-  width: 68.1rem;
+  width: 73.2rem;
   background: #fff;
-  padding: 1.7rem 1.7rem 3rem 1.4rem;
+  padding: 5.3rem 1.7rem 0 1.4rem;
 }
 .page main .lis_wrap .inductry_n_t .page_nav {
   display: flex;
   justify-content: space-between;
-  width: 60.2rem;
   color: #3f4142;
   border-bottom: 0.1rem solid #3f4142;
 }
 .page main .lis_wrap .inductry_n_t .page_nav ul li {
   float: left;
+  font-size: 1.2rem;
 }
 .page main .lis_wrap .inductry_n_t .page_nav ul li a {
   color: #3f4142;
+}
+.page main .lis_wrap .inductry_n_t .page_nav ul li i {
+  font-size: 1.2rem;
 }
 .page main .lis_wrap .inductry_n_t .page_nav .time_w {
   font-size: 1.2rem;
@@ -443,49 +426,44 @@ header nav a.active:after {
   width: 100%;
   border: 0 none;
 }
-.page main .lis_wrap .inductry_n_t .card .card-body {
-  padding: 3.2rem 0 0;
+.page main .lis_wrap .inductry_n_t .card h2.movi_title {
+  font-size: 2.8rem;
+  color: #4b4b4b;
   text-align: center;
+  margin: 4.6rem 0 3.5rem;
+}
+.page main .lis_wrap .inductry_n_t .card .card-body {
+  text-align: left;
+  padding: 0;
 }
 .page main .lis_wrap .inductry_n_t .card .card-body h5 {
   font-size: 1.6rem;
   color: #3f4142;
+  margin-bottom: 1.4rem;
 }
 .page main .lis_wrap .inductry_n_t .card .card-body .card-img-top {
   width: 100%;
-  height: 21rem;
+  height: auto;
   box-shadow: 0 0 0.5rem #aaa;
-  margin-top: 1.7rem;
+}
+.page main .lis_wrap .inductry_n_t .card .card-body .card-img-top:nth-child(2) {
+  margin-bottom: 4rem;
+}
+.page main .lis_wrap .inductry_n_t .card .card-body .card-img-top.empty {
+  margin-bottom: 16.7rem;
+}
+.page main .lis_wrap .inductry_n_t .card .card-body .card-img-top.mr {
+  margin-bottom: 5.1rem;
+}
+.page main .lis_wrap .inductry_n_t .card .card-body .card-img-top.mr + .card-text {
+  margin-bottom: 18.6rem;
 }
 .page main .lis_wrap .inductry_n_t .card .card-body .card-text {
   font-size: 1.2rem;
   color: #5f5b5b;
-  text-align: left;
-  margin-top: 1.3rem;
-}
-.page main .lis_wrap .inductry_n_t nav {
-  margin-top: 3.5rem;
-}
-.page main .lis_wrap .inductry_n_t nav .pagination .page-item:not(:last-of-type) {
-  margin-right: 0.5rem;
-}
-.page main .lis_wrap .inductry_n_t nav .pagination .page-item a {
-  border: 1px solid #d6d6d6;
-  color: #000;
-  font-size: 1rem;
-  padding: 0.5rem 0.4rem;
-}
-.page main figure {
-  position: absolute;
-  left: -11.3rem;
-  bottom: -0.4rem;
-  width: 40rem;
-  height: auto;
-  margin: 0;
-}
-.page main figure img {
-  width: 100%;
-  height: auto;
+  line-height: 2.4rem;
+  text-indent: 2em;
+  margin-bottom: 2.3rem;
 }
 
-/*# sourceMappingURL=list.css.map */
+/*# sourceMappingURL=dg-detail.css.map */

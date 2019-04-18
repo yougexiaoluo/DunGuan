@@ -245,6 +245,10 @@ header nav a.active:after {
   font-size: 1.6rem;
   margin-right: 1.3rem;
 }
+.footer .contect .list-unstyled li .media-body .media#email-wrap {
+  margin-top: 1.2rem !important;
+  margin-bottom: 1.3rem !important;
+}
 .footer .feedback {
   width: 39.1rem;
 }
@@ -329,19 +333,20 @@ header nav a.active:after {
   padding: 0;
 }
 .page main {
-  background: url(../assets/images/home/bg.jpg) no-repeat 0 0;
+  width: 100%;
+  background: url(../assets/images/home/bg.jpg) no-repeat 0 -11rem;
 }
 .page main .service_wrap {
   margin-bottom: 9.8rem;
 }
 .page main .service_wrap figure {
   width: 43.59375%;
-  padding-top: 27.5rem;
+  padding-top: 13.2rem;
   margin: 0;
 }
 .page main .service_wrap .service_r {
   color: #fff;
-  padding-top: 30.9rem;
+  padding-top: 18.4rem;
   transform: translateX(-8rem);
 }
 .page main .service_wrap .service_r h4 {
@@ -399,6 +404,10 @@ header nav a.active:after {
   right: 6rem;
   bottom: 0;
   margin: 0;
+}
+.page main .about_wrap figure img {
+  width: 100%;
+  height: auto;
 }
 .page main .we {
   display: flex;

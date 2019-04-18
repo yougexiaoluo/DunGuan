@@ -12,28 +12,27 @@
 
 
 .page {
-  max-width: 128rem; 
+  max-width: 128rem;
   margin: $auto;
   padding: 0;
-  // 中间部分
-  main {
-    background: url(../assets/images/home/bg.jpg) no-repeat 0 0;
-    // background-size: 100% 73.5rem;
 
-    // background-size: 100% auto;
+  // 中间部分 
+  main {
+    width: 100%;
+    background: url(../assets/images/home/bg.jpg) no-repeat 0 -11rem;
+
     .service_wrap {
       margin-bottom: 9.8rem;
+
       figure {
         width: persent(558);
-        // height: 43.9rem;
-        padding-top: 27.5rem;
-        // padding-top: 13.2rem;
+        padding-top: 13.2rem;
         margin: 0;
       }
 
       .service_r {
         color: $white;
-        padding-top: 30.9rem;
+        padding-top: 18.4rem;
         transform: translateX(-8rem);
 
         h4 {
@@ -78,28 +77,37 @@
         }
       }
     }
+
     // about 
     .about_wrap {
       position: relative;
       padding: 0 22.1rem 9.1rem 15.4rem;
+
       .about {
         color: #34495e;
+
         .about_title {
           font-size: 1.8rem;
           margin-bottom: 1rem;
         }
-        .des{
+
+        .des {
           width: 61.6rem;
           font-size: 1.2rem;
           line-height: 3rem;
           text-align: justify;
         }
       }
+ 
       figure {
         position: absolute;
         right: 6rem;
         bottom: 0;
         margin: 0;
+        img {
+          width: 100%;
+          height: auto;
+        }
       }
     }
 
